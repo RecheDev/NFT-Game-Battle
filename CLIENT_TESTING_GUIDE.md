@@ -1,6 +1,6 @@
 # 🎮 NFT Battle Game - Client Testing Guide
 
-**Live Demo**: [Your Vercel URL will go here]
+**Live Demo**: *TBA*
 
 Test the NFT Battle Game deployed on Vercel using our provided test account.
 
