@@ -8,10 +8,6 @@
 
 > A decentralized turn-based battle game where players mint unique character NFTs and battle against a powerful boss. Built with Solidity smart contracts and a React frontend, demonstrating full-stack Web3 development.
 
-## Live Demo
-
-![Battle Game Demo](https://nft-game-battle.vercel.app)
-
 ## Features
 
 ### Gameplay Features
