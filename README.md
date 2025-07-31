@@ -71,14 +71,12 @@
    npx hardhat run scripts/deploy.js --network localhost
    ```
 
-5. **Update contract addresses**
-   
-   Copy the deployed addresses and update `src/constants/contracts.js`:
-   ```javascript
-   export const CONTRACT_ADDRESSES = {
-     GAME_CHARACTER: 'YOUR_GAME_CHARACTER_ADDRESS',
-     BATTLE_LOGIC: 'YOUR_BATTLE_LOGIC_ADDRESS'
-   };
+5. **Provide contract addresses**
+
+   Set the deployed addresses as environment variables for the frontend:
+   ```bash
+   export VITE_GAME_CHARACTER_ADDRESS=<deployed GameCharacter address>
+   export VITE_BATTLE_LOGIC_ADDRESS=<deployed BattleLogic address>
    ```
 
 6. **Start the frontend**
@@ -222,13 +220,13 @@ REPORT_GAS=true npm test
 ### Local Deployment
 1. Start Hardhat node: `npx hardhat node`
 2. Deploy contracts: `npx hardhat run scripts/deploy.js --network localhost`
-3. Update frontend contract addresses in `src/constants/contracts.js`
+3. Set `VITE_GAME_CHARACTER_ADDRESS` and `VITE_BATTLE_LOGIC_ADDRESS` in your environment
 4. Start frontend: `npm run dev`
 
 ### Testnet Deployment
 1. Configure `.env` with Sepolia URL and private key
 2. Deploy: `npx hardhat run scripts/deploy.js --network sepolia`
-3. Update frontend configuration
+3. Set `VITE_GAME_CHARACTER_ADDRESS` and `VITE_BATTLE_LOGIC_ADDRESS`
 4. Build and deploy frontend
 
 ## Contributing
