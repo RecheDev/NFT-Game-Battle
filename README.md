@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-![Battle Game Demo](https://via.placeholder.com/800x400/1e3c72/ffffff?text=NFT+Battle+Game+Demo)
+![Battle Game Demo](nft-game-battle.vercel.app)
 
 ## Features
 
